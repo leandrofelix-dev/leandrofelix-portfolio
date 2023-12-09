@@ -56,7 +56,7 @@ export default function LoadingAnim() {
                         className='loading-text-resp'
 
                     >
-                        Preparing your experience...
+                        Loading files...
                     </p>
                 </div>
 

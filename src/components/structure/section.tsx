@@ -3,12 +3,6 @@
 import sections from '../../styles/scss/structure/section.module.scss';
 import React from "react";
 
-/**
- * Structural Component
- *
- * Section / Container / Componenents / Blocks / Utils
- * returns Section structure
- */
 interface SectionProps {
 	classProp?: string;
 	children: React.ReactNode;

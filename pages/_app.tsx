@@ -82,7 +82,6 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
                     <Layout>
                         <Component {...pageProps} />
                         <DevelopmentNotice />
-                        <Chatbot />
                         <Analytics />
                         <SetGridGap />
                     </Layout>
