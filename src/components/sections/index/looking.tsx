@@ -20,8 +20,8 @@ export default function Looking() {
 				<h2 className={looking.jsonSub}><span className={looking.highlight2}>Software Engineer</span></h2>
 				<h2 className={looking.json}>&#125;</h2>
 				<h4>I am particularly interested in product based positions where I can help make an organization wide impact.</h4>
-				{/* <h2>Fresher <span className={looking.highlight}>User Experience</span> Designer</h2> */}
-				{/* <p className="subtitle">with a focus on Product Design.</p> */}
+				<h2>Fresher <span className={looking.highlight}>User Experience</span> Designer</h2>
+				<p className="subtitle">with a focus on Product Design.</p>
 			</Container>
 		</Section>
 	)

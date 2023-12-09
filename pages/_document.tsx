@@ -33,7 +33,7 @@ export default function Document() {
 
             <meta name="author" content="Leandro Felix" />
 
-            <link rel="alternate" hrefLang="en" href="https://muhammadfelix.com" />
+            <link rel="alternate" hrefLang="en" href="https://leandrofelix.dev.br" />
 
             <meta name="robots" content="index, follow" />
             <meta name="googlebot" content="index, follow" />
@@ -73,7 +73,6 @@ export default function Document() {
             <meta name="twitter:title" content="Leandro Felix" />
             <meta name="twitter:description" content="Leandro Felix - Fullstack Web and Mobile Systems Analyst" />
             <meta name="twitter:domain" content="https://leandrofelix.dev.br" />
-
 
     <link rel='apple-touch-startup-image' href='/img/logo_rounded.png' sizes='2048x2732' />
     <link rel='apple-touch-startup-image' href='/img/logo_rounded.png' sizes='1668x2224' />
@@ -187,7 +186,6 @@ export default function Document() {
         `,
             }} />
 
-            {/*Edit this to your according to your website*/}
             <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: `
           {
@@ -197,27 +195,12 @@ export default function Document() {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://muhammadfelix.com/"
-            },{
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Docs",
-              "item": "https://muhammadfelix.com/docs"
-            },{
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Articles",
-              "item": "https://muhammadfelix.com/articles"
+              "item": "https://leandrofelix.com/"
             },{
               "@type": "ListItem",
               "position": 4,
               "name": "Projects",
-              "item": "https://muhammadfelix.com/projects"
-            },{
-              "@type": "ListItem",
-              "position": 5,
-              "name": "Sign In",
-              "item": "https://muhammadfelix.com/signin"
+              "item": "https://leandrofelix.com/projects"
             }]
           }
         `
@@ -229,13 +212,13 @@ export default function Document() {
           {
             "@context": "https://schema.org",
             "@type": "ResearchProject",
-            "name": "NeuroLink",
-            "description": "NeuroLink is a Python package that aims to provide various AI capabilities, including a chatbot, image processing, audio processing, Django support, and more. It utilizes TensorFlow and other related technologies for natural language processing and AI tasks.",
-            "alternateName": "neurolink",
-            "url": "https://github.com/muhammad-felix/neurolink",
+            "name": "Beeve",
+            "description": "beeve is mobile application and API.",
+            "alternateName": "beeve",
+            "url": "https://github.com/leandrofelix-dev/beeve",
             "logo": "https://private-user-images.githubusercontent.com/75434191/242214243-82fbf702-43e2-46e6-8e01-11758fa26310.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQ4NTE2ODksIm5iZiI6MTY5NDg1MTM4OSwicGF0aCI6Ii83NTQzNDE5MS8yNDIyMTQyNDMtODJmYmY3MDItNDNlMi00NmU2LThlMDEtMTE3NThmYTI2MzEwLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTE2VDA4MDMwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ3NjJmNzA5MGU5NWY4NTUxZTcxYmVmNzNlZTYzOTViN2FjNzE1YTM2MjM1OTNlOGIxNzk0ODE1NDczMDMzNGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ay5bRLRoojQ33ZJLFnvjyq6Dq4qZfDY7quvv4WmgRLI",
              "sameAs": [
-            "https://www.linkedin.com/in/muhammad-felix-/"
+            "https://www.linkedin.com/in/leandrofelix-dev/"
         ]          }
         `
             }} />
