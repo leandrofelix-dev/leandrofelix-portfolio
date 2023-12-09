@@ -21,7 +21,7 @@ export default function Home() {
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="From an early age, my passion for creating new things has been a driving force. Immersed in the world of design and coding, I honed my skills and explored innovative solutions. This love for creation has shaped my career, fueling my desire to bring impactful and visually stunning projects to life. With meticulous attention to detail and a keen eye for aesthetics, I strive to craft exceptional and memorable experiences."
+					subTitle="Hello! I'm Leandro Felix, an enthusiast and full-stack web developer passionate about turning ideas into interactive and innovative solutions. With a experience in software development, I am committed to creating meaningful and efficient digital experiences. My skills span both front-end and back-end, allowing me to approach projects comprehensively."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
