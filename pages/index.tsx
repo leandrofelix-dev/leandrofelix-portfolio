@@ -44,7 +44,6 @@ export default function HomePage({ spacing }: HomePageProps) {
 			<FeaturedProjects />
 			<Technical />
 			<Career />
-			{/* <QnA /> */}
 		</div>
 	);
 
