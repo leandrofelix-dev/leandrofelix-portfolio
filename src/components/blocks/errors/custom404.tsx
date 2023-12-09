@@ -46,10 +46,6 @@ function Custom404() {
                     Oops! It seems like you've stumbled upon a non-existent page on my
                     portfolio website.
                 </p>
-                <p style={{ fontSize: '14px' }}>
-                    If you think this issues or bugs, please report them{' '}
-                    <a href="https://github.com/leandrofelix-dev/portfolio/issues/new">@leandrofelix-dev</a>
-                </p>
                 <button className="go-back-button404" onClick={handleGoBack}>
                     Go Back to Homepage
                 </button>

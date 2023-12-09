@@ -4,14 +4,6 @@
 		"title": "Home"
 	},
 	{
-		"url": "/docs",
-		"title": "Docs"
-	},
-	{
-		"url": "/articles",
-		"title": "Articles"
-	},
-	{
 		"url": "/projects",
 		"title": "Projects"
 	}

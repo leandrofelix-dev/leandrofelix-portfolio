@@ -1,59 +1,46 @@
 {
-	"Websites": [
-		{
-			"person": "muhammadfiaz.com",
-			"link": "https://muhammadfiaz.com/",
-			"note": ""
-		}
+  "Websites": [
+    {
+      "person": "leandrofelix.dev.br",
+      "link": "https://leandrofelix.dev.br/",
+      "note": "My portfolio Website made with Next.js"
+    }
+  ],
 
-	],
+  "links": [
+    {
+      "person": "Home",
+      "link": "https://leandrofelix.dev.br/",
+      "note": ""
+    },
+    {
+      "person": "Projects",
+      "link": "https://leandrofelix.dev.br/projects",
+      "note": ""
+    },
+    {
+      "person": "Contact",
+      "link": "mailto:leandro.felix.ar@gmail.com",
+      "note": ""
+    }
+  ],
 
-	"links": [
-		{
-			"person": "Home",
-			"link": "https://muhammadfiaz.com/",
-			"note": ""
-		},
-		{ 
-			"person": "Documentations",
-			"link": "https://muhammadfiaz.com/docs",
-			"note": ""
-		},	{
-			"person": "Articles",
-			"link": "https://muhammadfiaz.com/articles",
-			"note": ""
-		},
-
-		{
-			"person": "Projects",
-			"link": "https://muhammadfiaz.com/projects",
-			"note": ""
-		},
-		{
-			"person": "Contact",
-			"link": "mailto:s.muhammadfiaz2003@gmail.com",
-			"note": ""
-		}
-
-
-	],
-
-	"social": [
-		{
-			"url": "https://medium.com/@leandrofelix-dev",
-			"icon": "medium"
-		},
-		{
-			"url": "https://dev.to/muhammadfiaz",
-			"icon": "dev"
-		},
-		{
-			"url": "https://www.linkedin.com/in/leandrofelix-dev-/",
-			"icon": "linkedin"
-		},
-		{
-			"url": "https://github.com/leandrofelix-dev",
-			"icon": "github"
-		}
-	]
+  "social": [
+    {
+      "url": "https://www.linkedin.com/in/leandrofelix-dev-/",
+      "icon": "linkedin"
+    },
+    {
+      "url": "https://github.com/leandrofelix-dev",
+      "icon": "github"
+    },
+    {
+      "url": "https://api.whatsapp.com/send?phone=5588992285712",
+      "icon": "whatsapp"
+    },
+    {
+      "url": "https://instagram.com/leandrofelix.dev",
+      "icon": "instagram"
+    }
+  ]
 }
