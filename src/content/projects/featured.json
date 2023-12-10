@@ -7,7 +7,7 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "300", "w": "700", "url": "/img/neurolink.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "300", "w": "700", "url": "/img/make-order.png" }
 
 		],
 		"stack": [
@@ -30,7 +30,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "550", "w": "330",  "url": "/img/img-mock.png" }
+			{ "key": "portfolio", "hover": "right", "h": "550", "w": "330",  "url": "/img/beeve.png" }
 		],
 		"stack": [
 			{ "key": "typescript", "name": "TypeScript", "type": "devicon" },
@@ -52,7 +52,7 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "300", "w": "700", "url": "/img/neurolink.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "300", "w": "700", "url": "/img/alfa-comunicacao.png" }
 
 		],
 		"stack": [
