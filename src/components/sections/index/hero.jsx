@@ -60,36 +60,22 @@ export default function Hero() {
 				<section style={{ position: 'relative' }}>
 					<button
 						className={`button ${button.primary}`}
-						onClick={() => (window.location = 'mailto:s.muhammadfiaz2003@gmail.com')}
+						onClick={() => (window.location = 'mailto:leandro.felix.ar@gmail.com')}
 						onMouseEnter={() => setIsHiremeTooltipVisible(true)}
 						onMouseLeave={() => setIsHiremeTooltipVisible(false)}
 					>
 						{content.buttons.primary.title}
 					</button>
-					{isHiremeTooltipVisible && (
-						<div className={`${hero.tooltipContent} ${hero.hireme_tooltip}`}>
-
-							<Image src="/gif/hireme.gif" width={100} height={100} alt="Yescat GIF" />
-
-						</div>
-					)}
 					<button
 						className={`button ${button.secondary} leaveSite`}
 
-						onClick={() => window.open('https://www.linkedin.com/in/leandrofelix-dev-', '_blank')}
+						onClick={() => window.open('https://www.linkedin.com/in/leandrofelix-dev', '_blank')}
 
 						onMouseEnter={() => setIsYescatTooltipVisible(true)}
 						onMouseLeave={() => setIsYescatTooltipVisible(false)}
 					>
 						{content.buttons.secondary.title}
 					</button>
-					{isYescatTooltipVisible && (
-						<div className={`${hero.tooltipContent} ${hero.yescat_tooltip}`}>
-
-							<Image src="/gif/yes.gif" width={100} height={100} alt="GIF" />
-
-						</div>
-					)}
 				</section>
 			</Container>
 			<HeroBg theme="bg-color-1" />
