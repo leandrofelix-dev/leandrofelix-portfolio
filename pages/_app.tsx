@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import React, { useEffect, useState } from "react";
 import { Router } from "next/router";
 import NProgress from "nprogress";
@@ -55,6 +56,7 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
 
   return (
     <>
+      <SpeedInsights/>
       <LazyMotion features={domAnimation}>
         <Layout>
           <Component {...pageProps} />
