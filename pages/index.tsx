@@ -54,7 +54,8 @@ export default function HomePage({ spacing }: HomePageProps) {
 
 			{/* Conditionally render components or loading message */}
 			{settings.splashscreen && !componentsLoaded ? (
-				<LoadingAnim />
+				// <LoadingAnim />
+				renderContent()
 			) : (
 				renderContent()
 			)}

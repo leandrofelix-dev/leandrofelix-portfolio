@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { domAnimation, LazyMotion } from "framer-motion";
 import SetGridGap from "../src/components/utils/set.grid";
 import Layout from "../src/components/layout/layout";
-import LoadingScreen from "../src/components/intro/splash";
+// import LoadingScreen from "../src/components/intro/splash";
 // Global CSS
 import "../node_modules/the-new-css-reset/css/reset.css";
 import "@fontsource/fira-code/400.css";
