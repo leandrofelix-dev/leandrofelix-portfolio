@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-title-in-document-head */
 import { Head, Html, Main, NextScript } from 'next/document'
 import Script from 'next/script'
 import React from 'react'
@@ -8,7 +9,6 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
         <title>Leandro Felix | Portfolio</title>
         <meta
           name="description"
