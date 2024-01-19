@@ -1,21 +1,21 @@
 // Core packages
-import Badges from "../../../utils/badge.list";
+import Badges from '../../../utils/badge.list'
 
 // Section structure
-import Section from "../../../structure/section";
-import Container from "../../../structure/container";
+import Section from '../../../structure/section'
+import Container from '../../../structure/container'
 
 // Section general blocks
-import SectionTitle from "../../../blocks/section.title";
+import SectionTitle from '../../../blocks/section.title'
 
 // Career scss
-import career from "../../../../styles/scss/sections/index/career.module.scss";
-import Education from "./education";
+import career from '../../../../styles/scss/sections/index/career.module.scss'
+import Education from './education'
 
 export default function Career() {
   return (
     <Section classProp={`${career.section} borderBottom`}>
-      <Container spacing={["verticalXXXLrg"]}>
+      <Container spacing={['verticalXXXLrg']}>
         <SectionTitle
           title="Experience"
           preTitle="Career"
@@ -67,36 +67,36 @@ export default function Career() {
       </Container>
       <Education />
     </Section>
-  );
+  )
 }
 
 const freelancer = [
-  { key: "javascript", name: "JavaScript", type: "devicon" },
-  { key: "nodejs", name: "NodeJS", type: "devicon" },
-  { key: "react", name: "React", type: "devicon" },
-  { key: "nextjs", name: "NextJS", type: "devicon" },
-  { key: "html5", name: "HTML5", type: "devicon" },
-  { key: "css3", name: "CSS3", type: "devicon" },
-  { key: "git", name: "Git", type: "devicon" },
-  { key: "mysql", name: "MySQL", type: "devicon" },
-  { key: "mongodb", name: "MongoDB", type: "devicon" },
-  { key: "python", name: "Python", type: "devicon" },
-  { key: "typescript", name: "TypeScript", type: "devicon" },
-  { key: "tailwindcss", name: "TailwindCSS", type: "devicon" },
-  { key: "bootstrap", name: "Bootstrap", type: "devicon" },
-  { key: "npm", name: "NPM", type: "devicon" },
-  { key: "yarn", name: "Yarn", type: "devicon" },
-  { key: "firebase", name: "Firebase", type: "devicon" },
-  { key: "flask", name: "Flask", type: "devicon" },
-];
+  { key: 'javascript', name: 'JavaScript', type: 'devicon' },
+  { key: 'nodejs', name: 'NodeJS', type: 'devicon' },
+  { key: 'react', name: 'React', type: 'devicon' },
+  { key: 'nextjs', name: 'NextJS', type: 'devicon' },
+  { key: 'html5', name: 'HTML5', type: 'devicon' },
+  { key: 'css3', name: 'CSS3', type: 'devicon' },
+  { key: 'git', name: 'Git', type: 'devicon' },
+  { key: 'mysql', name: 'MySQL', type: 'devicon' },
+  { key: 'mongodb', name: 'MongoDB', type: 'devicon' },
+  { key: 'python', name: 'Python', type: 'devicon' },
+  { key: 'typescript', name: 'TypeScript', type: 'devicon' },
+  { key: 'tailwindcss', name: 'TailwindCSS', type: 'devicon' },
+  { key: 'bootstrap', name: 'Bootstrap', type: 'devicon' },
+  { key: 'npm', name: 'NPM', type: 'devicon' },
+  { key: 'yarn', name: 'Yarn', type: 'devicon' },
+  { key: 'firebase', name: 'Firebase', type: 'devicon' },
+  { key: 'flask', name: 'Flask', type: 'devicon' },
+]
 
 const fullStack = [
-  { key: "javascript", name: "JavaScript", type: "devicon" },
-  { key: "nodejs", name: "NodeJS", type: "devicon" },
-  { key: "react", name: "React", type: "devicon" },
-  { key: "git", name: "Git", type: "devicon" },
-  { key: "postgresql", name: "PostgresSQL", type: "devicon" },
-  { key: "mongodb", name: "MongoDB", type: "devicon" },
-  { key: "typescript", name: "TypeScript", type: "devicon" },
-  { key: "yarn", name: "NPM", type: "devicon" },
-];
+  { key: 'javascript', name: 'JavaScript', type: 'devicon' },
+  { key: 'nodejs', name: 'NodeJS', type: 'devicon' },
+  { key: 'react', name: 'React', type: 'devicon' },
+  { key: 'git', name: 'Git', type: 'devicon' },
+  { key: 'postgresql', name: 'PostgresSQL', type: 'devicon' },
+  { key: 'mongodb', name: 'MongoDB', type: 'devicon' },
+  { key: 'typescript', name: 'TypeScript', type: 'devicon' },
+  { key: 'yarn', name: 'NPM', type: 'devicon' },
+]

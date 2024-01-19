@@ -1,33 +1,33 @@
-
 import css from '../../styles/scss/utils/page.colors.module.scss'
 
-
-{/* Page Colors */}
+{
+  /* Page Colors */
+}
 export default function ColorOverrides({ colors }) {
-	return (
-		<>	
-			<data id="page-specific-colors" className={css.colors}>
-				<Dark colors={colors.dark} />
-				<Unicorn colors={colors.unicorn} />
-				<Light colors={colors.light} />
-				<svg aria-hidden="true" focusable="false">
-					<linearGradient id="fa-gradient" x1="0%" y1="0%" x2="175%" y2="175%">
-						<stop offset="0%" stopColor="var(--neon-1-2)" />
-						<stop offset="100%" stopColor="var(--neon-1-1)" />
-					</linearGradient>
-				</svg>
-			</data>
-		</>
-	)
+  return (
+    <>
+      <data id="page-specific-colors" className={css.colors}>
+        <Dark colors={colors.dark} />
+        <Unicorn colors={colors.unicorn} />
+        <Light colors={colors.light} />
+        <svg aria-hidden="true" focusable="false">
+          <linearGradient id="fa-gradient" x1="0%" y1="0%" x2="175%" y2="175%">
+            <stop offset="0%" stopColor="var(--neon-1-2)" />
+            <stop offset="100%" stopColor="var(--neon-1-1)" />
+          </linearGradient>
+        </svg>
+      </data>
+    </>
+  )
 }
 
-function Dark({colors}) {
-	// dark theme settings
-	const children = Object.keys(colors).length
-	if ( children !== 0 ) {
-		return (	
-			<style>
-				{`
+function Dark({ colors }) {
+  // dark theme settings
+  const children = Object.keys(colors).length
+  if (children !== 0) {
+    return (
+      <style>
+        {`
 				:root[data-theme=dark] {
 					--mesh-color-1: ${colors.secondaryDark};
 					--mesh-color-2: ${colors.secondaryLight};
@@ -35,17 +35,17 @@ function Dark({colors}) {
 					--mesh-color-4: ${colors.primaryLight};
 				}
 				`}
-			</style>
-		)
-	}
+      </style>
+    )
+  }
 }
-function Unicorn({colors}) {
-	// unicorn theme settings
-	const children = Object.keys(colors).length
-	if ( children !== 0 ) {
-		return (
-			<style>
-				{`
+function Unicorn({ colors }) {
+  // unicorn theme settings
+  const children = Object.keys(colors).length
+  if (children !== 0) {
+    return (
+      <style>
+        {`
 				:root[data-theme=unicorn] {
 					--mesh-color-1: ${colors.secondaryDark};
 					--mesh-color-2: ${colors.secondaryLight};
@@ -53,18 +53,18 @@ function Unicorn({colors}) {
 					--mesh-color-4: ${colors.primaryLight};
 				}
 				`}
-			</style>
-		)
-	}
+      </style>
+    )
+  }
 }
 
-function Light({colors}) {
-	// light theme settings
-	const children = Object.keys(colors).length
-	if ( children !== 0 ) {
-		return (
-			<style>
-				{`
+function Light({ colors }) {
+  // light theme settings
+  const children = Object.keys(colors).length
+  if (children !== 0) {
+    return (
+      <style>
+        {`
 				:root[data-theme=light] {
 					--mesh-color-1: ${colors.secondaryDark};
 					--mesh-color-2: ${colors.secondaryLight};
@@ -72,7 +72,7 @@ function Light({colors}) {
 					--mesh-color-4: ${colors.primaryLight};
 				}
 				`}
-			</style>
-		)
-	}
+      </style>
+    )
+  }
 }

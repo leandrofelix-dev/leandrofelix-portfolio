@@ -1,83 +1,78 @@
-
-import React from "react";
-import {useRouter} from "next/router";
-import {Player} from "@lottiefiles/react-lottie-player";
+import React from 'react'
+import { useRouter } from 'next/router'
+import { Player } from '@lottiefiles/react-lottie-player'
 
 function Custom404() {
-    const router = useRouter();
+  const router = useRouter()
 
-    const handleGoBack = () => {
-        router.push("/");
-    };
+  const handleGoBack = () => {
+    router.push('/')
+  }
 
-    return (
-        <div className="image404">
-
-
-            <div className="area" >
-                <ul className="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div >
-            <div className="centered-image404">
-                <Player
-                    autoplay
-                    loop
-                    src="/lottie/boysearching.json"
-                    style={{
-                        width: "50%",
-                        height: "50%",
-                        maxWidth: "800px",
-                        maxHeight: "800px",
-                    }}
-                />
-                <h1 className="not-found-title404">404 - Page Not Found</h1>
-                <p className="not-found-text404">
-                    {/* eslint-disable-next-line react/no-unescaped-entities */}
-                    Oops! It seems like you've stumbled upon a non-existent page on my
-                    portfolio website.
-                </p>
-                <button className="go-back-button404" onClick={handleGoBack}>
-                    Go Back to Homepage
-                </button>
-            </div>
-            <div className="anim">
-                <div className="ufo">
-                    <Player
-                        autoplay
-                        loop
-                        src="/lottie/ufo.json"
-                        style={{
-                            width: "80px",
-                            height: "80px",
-                        }}
-                    />
-                </div>
-                <div className="ghost">
-                    <Player
-                        autoplay
-                        loop
-                        src="/lottie/ghost.json"
-                        style={{
-                            width: "80px",
-                            height: "80px",
-                        }}
-                    />
-                </div>
-
-            </div>
-
+  return (
+    <div className="image404">
+      <div className="area">
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div className="centered-image404">
+        <Player
+          autoplay
+          loop
+          src="/lottie/boysearching.json"
+          style={{
+            width: '50%',
+            height: '50%',
+            maxWidth: '800px',
+            maxHeight: '800px',
+          }}
+        />
+        <h1 className="not-found-title404">404 - Page Not Found</h1>
+        <p className="not-found-text404">
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
+          Oops! It seems like you've stumbled upon a non-existent page on my
+          portfolio website.
+        </p>
+        <button className="go-back-button404" onClick={handleGoBack}>
+          Go Back to Homepage
+        </button>
+      </div>
+      <div className="anim">
+        <div className="ufo">
+          <Player
+            autoplay
+            loop
+            src="/lottie/ufo.json"
+            style={{
+              width: '80px',
+              height: '80px',
+            }}
+          />
         </div>
-    );
+        <div className="ghost">
+          <Player
+            autoplay
+            loop
+            src="/lottie/ghost.json"
+            style={{
+              width: '80px',
+              height: '80px',
+            }}
+          />
+        </div>
+      </div>
+    </div>
+  )
 }
 
-export default Custom404;
+export default Custom404

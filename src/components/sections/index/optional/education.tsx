@@ -1,17 +1,17 @@
 // Section structure
-import Section from "../../../structure/section";
-import Container from "../../../structure/container";
+import Section from '../../../structure/section'
+import Container from '../../../structure/container'
 
 // Section general blocks
-import SectionTitle from "../../../blocks/section.title";
+import SectionTitle from '../../../blocks/section.title'
 
 // Career scss
-import career from "../../../../styles/scss/sections/index/career.module.scss";
+import career from '../../../../styles/scss/sections/index/career.module.scss'
 
 export default function Education() {
   return (
     <Section classProp={`${career.section} borderBottom`}>
-      <Container spacing={["verticalXXXLrg"]}>
+      <Container spacing={['verticalXXXLrg']}>
         <SectionTitle
           title="Education"
           preTitle="Formal"
@@ -39,12 +39,13 @@ export default function Education() {
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
                 <h3>
-                State school of professional education Dr José Iran Costa
+                  State school of professional education Dr José Iran Costa
                 </h3>
                 <h5>Várzea Alegre, Ceará, Brazil</h5>
               </span>
               <p>
-              I have a technical degree, in the IT area, through EEEP Dr. José Iran Costa, with a 3-year degree.
+                I have a technical degree, in the IT area, through EEEP Dr. José
+                Iran Costa, with a 3-year degree.
               </p>
             </div>
             <div className={career.companyAlt}></div>
@@ -52,5 +53,5 @@ export default function Education() {
         </section>
       </Container>
     </Section>
-  );
+  )
 }
