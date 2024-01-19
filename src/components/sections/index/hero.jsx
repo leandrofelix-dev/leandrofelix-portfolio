@@ -65,7 +65,7 @@ export default function Hero() {
           <button
             className={`button ${button.primary}`}
             onClick={() =>
-              (window.location = 'mailto:leandro.felix.ar@gmail.com')
+              (window.location = 'mailto:contato@leandrofelix.dev.br')
             }
             onMouseEnter={() => setIsHiremeTooltipVisible(true)}
             onMouseLeave={() => setIsHiremeTooltipVisible(false)}

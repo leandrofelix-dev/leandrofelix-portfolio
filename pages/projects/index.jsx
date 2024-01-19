@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import dynamic from 'next/dynamic'
 
 import Color from '../../src/components/utils/page.colors'
@@ -5,14 +6,13 @@ import Color from '../../src/components/utils/page.colors'
 import settings from '../../src/content/_settings.json'
 import colors from '../../src/content/projects/_colors.json'
 import TitleProjects from './title.projects'
+
 const GitRecentProjects = dynamic(
   import('../../src/components/sections/projects/recent'),
 )
 const FeaturedProjects = dynamic(
   import('../../src/components/sections/projects/featured'),
 )
-
-// this is the project page
 export default function Projects({ user, repos }) {
   return (
     <>
@@ -25,9 +25,6 @@ export default function Projects({ user, repos }) {
 }
 
 export async function getServerSideProps({ res }) {
-  {
-    /* This gets called on every request */
-  }
   res.setHeader(
     'Cache-Control',
     'public, s-maxage=600, stale-while-revalidate=59',

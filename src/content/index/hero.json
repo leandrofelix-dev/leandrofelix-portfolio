@@ -11,8 +11,8 @@
 	},
 
 	"header": {
-		"name": "Leandro Felix 🇧🇷",
-		"usp": "A Systems Analyst. Web and Mobile Developer."
+		"name": "Leandro Felix 👨🏽‍💻",
+		"usp": ""
 	},
 
 	"paragraph": "I'm a systems analyst and web/mobile developer with JavaScript. I am a computer technician and am studying a bachelor's degree in information systems, totaling more than 5 years in the area.",
@@ -20,7 +20,7 @@
 	"buttons": {
 		"primary": {
 			"title": "Contact-me",
-			"url": "mailto:leandro.felix.ar@gmail.com",
+			"url": "mailto:contato@leandrofelix.dev.br",
 			"leaveSite": false
 		},
 		"secondary": {

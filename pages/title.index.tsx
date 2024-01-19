@@ -10,7 +10,7 @@ export default function TitleIndex() {
         name="viewport"
         content="width=device-width, initial-scale=1, viewport-fit=cover"
       />
-      <title>Leandro Felix | Portfolio</title>
+      <title>Leandro Felix - Systems Analyst | Portfolio</title>
 
       <meta name="application-name" content="Leandro Felix" />
       <meta name="description" content="Leandro Felix - Systems Analyst" />

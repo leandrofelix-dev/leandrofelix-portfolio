@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from 'react'
+'use client'
+
+import React from 'react'
 import colors from '../src/content/index/_colors.json'
 import TitleIndex from './title.index'
 
-// Import your components with dynamic import
 import dynamic from 'next/dynamic'
-import LoadingAnim from '../src/components/intro/loadinganim'
-import TimeLine from '../src/components/sections/index/timeline'
-import settings from '../src/content/_settings.json'
+
 const Hero = dynamic(() => import('../src/components/sections/index/hero'))
 const Looking = dynamic(
   () => import('../src/components/sections/index/looking'),
@@ -21,50 +20,21 @@ const Career = dynamic(
 const FeaturedProjects = dynamic(
   () => import('../src/components/sections/projects/featured'),
 )
-const QnA = dynamic(() => import('../src/components/sections/index/qna'))
+
 const Color = dynamic(() => import('../src/components/utils/page.colors'))
 
-interface HomePageProps {
-  spacing: string[]
-}
-
-export default function HomePage({ spacing }: HomePageProps) {
-  // Use a state variable to track whether components are loaded
-  const [componentsLoaded, setComponentsLoaded] = useState(false)
-
-  // Simulate a loading delay
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setComponentsLoaded(true)
-    }, 0)
-    window.onload = () => {
-      setComponentsLoaded(true)
-    }
-
-    return () => clearTimeout(timer)
-  }, [])
-
-  const renderContent = () => (
+export default function HomePage() {
+  return (
     <div>
+      <TitleIndex />
+      <Color colors={colors} />
+
       <Hero />
       <Looking />
       <About />
       <FeaturedProjects />
       <Technical />
       <Career />
-    </div>
-  )
-
-  return (
-    <div>
-      <TitleIndex />
-      <Color colors={colors} />
-
-      {/* Conditionally render components or loading message */}
-      {settings.splashscreen && !componentsLoaded
-        ? // <LoadingAnim />
-          renderContent()
-        : renderContent()}
     </div>
   )
 }
