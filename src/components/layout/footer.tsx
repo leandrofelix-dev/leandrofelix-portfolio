@@ -12,7 +12,7 @@ export default function Footer(): JSX.Element {
         <section className={css.sections}>
           <ul className={css.thanks}>
             <li>
-              <h4>Websites</h4>
+              <h4>Projetos</h4>
             </li>
             {content.Websites.map(({ person, link, note }, index) => {
               return (

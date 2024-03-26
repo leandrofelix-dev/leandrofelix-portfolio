@@ -12,7 +12,7 @@ export default function TitleProjects() {
       />
       <meta
         name="description"
-        content="Explore my Leandro Felix projects, featuring a range of technology and development initiatives."
+        content="Explore my projects, featuring a range of technology and development initiatives."
       />
       <meta
         name="keywords"

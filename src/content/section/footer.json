@@ -3,23 +3,28 @@
     {
       "person": "leandrofelix.dev.br",
       "link": "https://leandrofelix.dev.br/",
-      "note": "My portfolio Website made with Next.js"
+      "note": "Portfólio profissional feito em Next.js"
+    },
+    {
+      "person": "blog.leandrofelix.dev.br",
+      "link": "https://leandrofelix.dev.br/",
+      "note": "Blog"
     }
   ],
 
   "links": [
     {
-      "person": "Home",
+      "person": "Início",
       "link": "https://leandrofelix.dev.br/",
       "note": ""
     },
     {
-      "person": "Projects",
+      "person": "Projetos",
       "link": "https://leandrofelix.dev.br/projects",
       "note": ""
     },
     {
-      "person": "Contact",
+      "person": "Contato",
       "link": "mailto:contato@leandrofelix.dev.br",
       "note": ""
     }

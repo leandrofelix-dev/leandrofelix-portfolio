@@ -1,21 +1,20 @@
 /* eslint-disable @next/next/no-title-in-document-head */
-import { Head, Html, Main, NextScript } from 'next/document'
-import Script from 'next/script'
-import React from 'react'
+import { Head, Html, Main, NextScript } from "next/document";
+import Script from "next/script";
+import React from "react";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="pt-br">
       <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <title>Leandro Felix | Portfolio</title>
+        <title>Leandro Felix | Portfólio</title>
         <meta
           name="description"
-          content="Leandro Felix - Fullstack Web and Mobile Systems Analyst"
+          content="Leandro Felix - Analista de Sistemas e Desenvolvedor Fullstack Web"
         />
 
-        {/* These are need for PWA */}
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Leandro Felix" />
@@ -29,16 +28,16 @@ export default function Document() {
 
         <meta name="theme-color" content="#000000" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="language" content="English" />
+        <meta name="language" content="Portuguese" />
         <meta name="revisit-after" content="1 days" />
         <meta name="license" content="MIT License" />
-        <meta httpEquiv="content-language" content="en-us" />
+        <meta httpEquiv="content-language" content="pt-br" />
 
         <meta name="author" content="Leandro Felix" />
 
         <link
           rel="alternate"
-          hrefLang="en"
+          hrefLang="pt-br"
           href="https://leandrofelix.dev.br"
         />
 
@@ -81,14 +80,14 @@ export default function Document() {
           href="/favicon/safari-pinned-tab.svg"
           color="#5bbad5"
         />
-        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="msapplication-TileColor" content="#16a34a" />
         <meta name="theme-color" content="#ffffff" />
         <link rel="manifest" href="/manifest.json" />
 
         <meta property="og:title" content="Leandro Felix" key="title" />
         <meta
           property="og:description"
-          content="Leandro Felix - Fullstack Web and Mobile Systems Analyst"
+          content="Leandro Felix - Analista de Sistemas e Desenvolvedor Fullstack Web"
         />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:alt" content="Leandro Felix" />
@@ -107,7 +106,7 @@ export default function Document() {
         <meta name="twitter:title" content="Leandro Felix" />
         <meta
           name="twitter:description"
-          content="Leandro Felix - Fullstack Web and Mobile Systems Analyst"
+          content="Leandro Felix - Analista de Sistemas e Desenvolvedor Fullstack Web"
         />
         <meta name="twitter:domain" content="https://leandrofelix.dev.br" />
 
@@ -148,41 +147,44 @@ export default function Document() {
         />
 
         <meta
-          name="keywords"
+          name="palavras-chave"
           content="
-    Leandro Felix, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
-    Programmer, Software Developer, Portfolio Website, Web Developer, Coding, Full Stack Development,
-    Technology Enthusiast, Software Development, Computer Science, Programming Projects,
-    Frontend Developer, Backend Developer, Software Development Portfolio, Student,
-    Full Stack Web Developer, Leandro Felix Portfolio, Coding Projects, Tech Portfolio,
-    Web Development, DevOps Professional, Leandro Felix Projects, Software Engineer Portfolio,
-    IT Professional, Technology Projects, Software Development Engineer, Computer Programmer,
-    Code Portfolio, Technology Student, Software Architect, Cloud Computing,
-    DevOps Specialist, Software Engineering Projects, Coding Portfolio,
-    Full Stack Engineer Portfolio, Leandro Felix Web Developer,
-    Software Development Student, Coding Enthusiast, DevOps Portfolio, Programming Portfolio,
-    Leandro Felix DevOps, IT Portfolio, Web Developer Portfolio, Leandro Felix Developer,
-    Full Stack Engineer Leandro Felix, Leandro Felix Coding, Leandro Felix IT,
-    Leandro Felix Full Stack Developer, Leandro Felix Software Engineer, Leandro Felix DevOps Engineer,
-    Leandro Felix Programming, Leandro Felix Software Development, Leandro Felix Coding Projects,
-    Leandro Felix Tech Portfolio, Leandro Felix IT Portfolio, Leandro Felix Software Engineer Portfolio,
-    Leandro Felix Web Developer Portfolio, Leandro Felix DevOps Portfolio, Leandro Felix Full Stack Engineer,
-    Leandro Felix Full Stack Developer Portfolio, Leandro Felix Coding Portfolio, Leandro Felix Programming Portfolio,
-    Leandro Felix Software Development Portfolio, Leandro Felix Technology Projects,
-    Leandro Felix Computer Science, Leandro Felix Cloud Computing, Leandro Felix IT Professional,
-    Leandro Felix Technology Enthusiast, Leandro Felix Computer Programmer, Leandro Felix Code Portfolio,
-    Leandro Felix Technology Student, Leandro Felix Software Architect,felix,felix portfolio,felix devops,felix devops engineer,
-   devops portfolio,felix devops projects,felix devops specialist,felix devops professional,felix devops engineer portfolio,
-    felix devops engineer projects,felix devops engineer specialist,felix devops engineer professional,felix devops engineer coding,
-    felix devops engineer coding projects,felix devops engineer coding portfolio,felix devops engineer coding specialist,
-    Open Source Contributor,open source,open source projects,open source portfolio,open source contributions,
-    open source contributions portfolio,open source contributions projects,open source contributions coding,
-    open source contributions coding projects,open source contributions coding portfolio,open source contributions coding specialist,
-    open source contributions coding professional,open source contributions coding engineer,open source contributions coding developer,
-    open source contributions coding student,open source contributions coding enthusiast,open source contributions coding architect,
-    open source contributions coding projects portfolio,open source contributions coding projects specialist,
-
-"
+        Leandro Felix, Engenheiro Full Stack, Desenvolvedor Full Stack, Engenheiro DevOps, Engenheiro de Software,
+        Programador, Desenvolvedor de Software, Site de Portfólio, Desenvolvedor Web, Codificação, Desenvolvimento Full Stack,
+        Entusiasta de Tecnologia, Desenvolvimento de Software, Ciência da Computação, Projetos de Programação,
+        Desenvolvedor Frontend, Desenvolvedor Backend, Portfólio de Desenvolvimento de Software, Estudante,
+        Desenvolvedor Web Full Stack, Portfólio de Leandro Felix, Projetos de Codificação, Portfólio de Tecnologia,
+        Desenvolvimento Web, Profissional DevOps, Projetos de Leandro Felix, Portfólio de Engenheiro de Software,
+        Profissional de TI, Projetos de Tecnologia, Engenheiro de Desenvolvimento de Software, Programador de Computador,
+        Portfólio de Código, Estudante de Tecnologia, Arquiteto de Software, Computação em Nuvem,
+        Especialista em DevOps, Projetos de Engenharia de Software, Portfólio de Codificação,
+        Portfólio de Engenheiro Full Stack, Desenvolvedor Web de Leandro Felix,
+        Estudante de Desenvolvimento de Software, Entusiasta de Codificação, Portfólio de DevOps, Portfólio de Programação,
+        Leandro Felix DevOps, Portfólio de TI, Portfólio de Desenvolvedor Web, Leandro Felix Desenvolvedor,
+        Engenheiro Full Stack Leandro Felix, Leandro Felix Codificação, Leandro Felix TI,
+        Leandro Felix Desenvolvedor Full Stack, Leandro Felix Engenheiro de Software, Leandro Felix Engenheiro DevOps,
+        Leandro Felix Programação, Leandro Felix Desenvolvimento de Software, Projetos de Codificação de Leandro Felix,
+        Portfólio de Tecnologia de Leandro Felix, Portfólio de TI de Leandro Felix, Portfólio de Engenheiro de Software de Leandro Felix,
+        Portfólio de Desenvolvedor Web de Leandro Felix, Portfólio de DevOps de Leandro Felix, Engenheiro Full Stack de Leandro Felix,
+        Portfólio de Desenvolvedor Full Stack de Leandro Felix, Portfólio de Codificação de Leandro Felix, Portfólio de Programação de Leandro Felix,
+        Portfólio de Desenvolvimento de Software de Leandro Felix, Projetos de Tecnologia de Leandro Felix,
+        Ciência da Computação de Leandro Felix, Computação em Nuvem de Leandro Felix, Profissional de TI de Leandro Felix,
+        Entusiasta de Tecnologia de Leandro Felix, Programador de Computador de Leandro Felix, Portfólio de Código de Leandro Felix,
+        Estudante de Tecnologia de Leandro Felix, Arquiteto de Software de Leandro Felix,felix,felix portfólio,felix devops,felix engenheiro devops,
+        portfólio de devops de felix,projetos de felix devops,especialista de felix devops,profissional de felix devops,engenheiro de felix devops,
+        portfólio de engenheiro de felix devops,projetos de engenheiro de felix devops,especialista de engenheiro de felix devops,
+        profissional de engenheiro de felix devops,codificação de engenheiro de felix devops,projetos de codificação de engenheiro de felix devops,
+        portfólio de codificação de engenheiro de felix devops,especialista de codificação de engenheiro de felix devops,
+        contribuidor de código aberto,código aberto,projetos de código aberto,portfólio de código aberto,contribuições de código aberto,
+        portfólio de contribuições de código aberto,projetos de contribuições de código aberto,codificação de contribuições de código aberto,
+        projetos de codificação de contribuições de código aberto,portfólio de codificação de contribuições de código aberto,
+        especialista de codificação de contribuições de código aberto,profissional de codificação de contribuições de código aberto,
+        engenheiro de codificação de contribuições de código aberto,desenvolvedor de codificação de contribuições de código aberto,
+        estudante de codificação de contribuições de código aberto,entusiasta de codificação de contribuições de código aberto,
+        arquiteto de codificação de contribuições de código aberto,
+        portfólio de projetos de codificação de contribuições de código aberto,
+        portfólio de projetos de codificação de contribuições de código aberto,
+    "
         />
 
         <script
@@ -201,85 +203,6 @@ export default function Document() {
           }}
         />
 
-        {/* Edit this to your according FAQ */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Have you worked on any projects?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, in addition to my personal projects and hobbies, I have worked on several projects, both individually and in teams. These projects have allowed me to apply theoretical knowledge to real-world scenarios, honing my practical skills in software development, web technologies, and computer networks."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can we recruit you?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, I am currently looking for jobs and I have also done several open-source projects as well."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Who is Leandro Felix?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Leandro Felix is a Full Stack Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Leandro Felix strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Leandro Felix is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Where is Leandro Felix from?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Leandro Felix is from Madurai, Tamil Nadu, India."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What does Leandro Felix do?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Leandro Felix leverages Cloud, DevOps, ML/AI, Design, and web/mobile apps to benefit people with optimized operations and user-friendly experiences."
-                }
-              }
-            ]
-          }
-        `,
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `
-          {
-            "@context": "https://schema.org/",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://leandrofelix.com/"
-            },{
-              "@type": "ListItem",
-              "position": 4,
-              "name": "Projects",
-              "item": "https://leandrofelix.com/projects"
-            }]
-          }
-        `,
-          }}
-        />
-
-        {/* Edit this to your according to your website */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -298,34 +221,14 @@ export default function Document() {
         `,
           }}
         />
-        {/* theme */}
+
         <Script id="theme.util.jsx" strategy="beforeInteractive">
           {`
 				let themeLocalStorage = localStorage.getItem('theme')
-				let themeSystem       = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+				let themeSystem = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
 				document.querySelector(':root').dataset.theme = themeLocalStorage ?? themeSystem
 				`}
         </Script>
-
-        {/* Google Analytics */}
-        <Script
-          strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-SDJ0K1Y70X"
-        />
-        <Script
-          id="google-analytics"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-SDJ0K1Y70X', {
-            page_path: window.location.pathname,
-          });
-        `,
-          }}
-        />
       </Head>
 
       <body>
@@ -333,5 +236,5 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }

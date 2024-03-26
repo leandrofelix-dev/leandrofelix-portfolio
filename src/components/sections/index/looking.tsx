@@ -1,4 +1,4 @@
-// Section structure
+/* eslint-disable react/no-unescaped-entities */
 import Section from '../../structure/section'
 import Container from '../../structure/container'
 
@@ -12,18 +12,15 @@ export default function Looking() {
         classProp={`${section.title} ${looking.container}`}
         spacing={['verticalXXXLrg']}
       >
-        <h4>I am a full stack web developer and can act as</h4>
-        <h2 className={looking.json}>Positions : &#123;</h2>
+        <h4>Posso atuar como:</h4>
+        <h2 className={looking.json}> &#123;</h2>
         <h2 className={looking.jsonSub}>
-          <span className={looking.highlight}>Full Stack Developer</span>,
+          <span>"</span><span className={looking.highlight}>Dev. Frontend</span><span>"</span>,
         </h2>
         <h2 className={looking.jsonSub}>
-          <span className={looking.highlight2}>Software Engineer</span>
+        <span>"</span><span className={looking.highlight}>Dev. Backend</span><span>"</span>
         </h2>
         <h2 className={looking.json}>&#125;</h2>
-        {/* <h4>I am particularly interested in product based positions where I can help make an organization wide impact.</h4>
-				<h2>Fresher <span className={looking.highlight}>User Experience</span> Designer</h2> */}
-        <p className="subtitle">with a focus on Javascript.</p>
       </Container>
     </Section>
   )

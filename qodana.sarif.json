@@ -893,7 +893,7 @@
               "name": "Version control"
             }
           ],
-          "language": "en-US",
+          "language": "pt-BR",
           "contents": [
             "localizedData",
             "nonLocalizedData"
@@ -1137,7 +1137,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -2106,7 +2106,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -3477,7 +3477,7 @@
                 },
                 "fullDescription": {
                   "text": "Reports an indexed 'for' loop used on an array. Suggests replacing it with a 'for..of' loop. 'for..of' loops are introduced in ECMAScript 6 and iterate over 'iterable' objects.",
-                  "markdown": "Reports an indexed [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) loop used on an array. Suggests replacing it with a [for..of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) loop.   \n`for..of` loops are introduced in ECMAScript 6 and iterate over `iterable` objects."
+                  "markdown": "Reports an indexed [for](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for) loop used on an array. Suggests replacing it with a [for..of](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of) loop.   \n`for..of` loops are introduced in ECMAScript 6 and iterate over `iterable` objects."
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -5490,7 +5490,7 @@
                 },
                 "fullDescription": {
                   "text": "Reports a string concatenation. Suggests replacing it with a template literal Example '\"result: \" + a + \".\"' After applying the quick-fix the code looks as follows: '`result: ${a}.`'",
-                  "markdown": "Reports a string concatenation. Suggests replacing it with a [template literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)\n\nExample\n\n     \"result: \" + a + \".\" \n\nAfter applying the quick-fix the code looks as follows:\n\n     `result: ${a}.` \n"
+                  "markdown": "Reports a string concatenation. Suggests replacing it with a [template literal](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals)\n\nExample\n\n     \"result: \" + a + \".\" \n\nAfter applying the quick-fix the code looks as follows:\n\n     `result: ${a}.` \n"
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -6447,7 +6447,7 @@
                 },
                 "fullDescription": {
                   "text": "Reports a function expression. Suggests converting it to an arrow function. Example: 'arr.map(function(el) {return el + 1})' After applying the quick-fix the code looks as follows: 'arr.map(el => el + 1)'",
-                  "markdown": "Reports a [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function) expression. Suggests converting it to an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).\n\nExample:\n\n    arr.map(function(el) {return el + 1})\n\nAfter applying the quick-fix the code looks as follows:\n\n    arr.map(el => el + 1)\n"
+                  "markdown": "Reports a [function](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/function) expression. Suggests converting it to an [arrow function](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions).\n\nExample:\n\n    arr.map(function(el) {return el + 1})\n\nAfter applying the quick-fix the code looks as follows:\n\n    arr.map(el => el + 1)\n"
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -6579,7 +6579,7 @@
                 },
                 "fullDescription": {
                   "text": "Reports a usage of a 'for..in' loop on an array. Suggests replacing it with a 'for..of' loop. 'for..of' loops, which are introduced in ECMAScript 6, iterate over 'iterable' objects. For arrays, this structure is preferable to 'for..in', because it works only with array values but not with array object's properties.",
-                  "markdown": "Reports a usage of a [for..in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) loop on an array. Suggests replacing it with a [for..of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) loop.   \n`for..of` loops, which are introduced in ECMAScript 6, iterate over `iterable` objects. For arrays, this structure is preferable to `for..in`, because it works only with array values but not with array object's properties."
+                  "markdown": "Reports a usage of a [for..in](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...in) loop on an array. Suggests replacing it with a [for..of](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of) loop.   \n`for..of` loops, which are introduced in ECMAScript 6, iterate over `iterable` objects. For arrays, this structure is preferable to `for..in`, because it works only with array values but not with array object's properties."
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -9147,7 +9147,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -9621,7 +9621,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -10326,7 +10326,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -10503,7 +10503,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -10812,7 +10812,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -10956,7 +10956,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -11001,7 +11001,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -11046,7 +11046,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -11091,7 +11091,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -13149,7 +13149,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -14283,7 +14283,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -14856,7 +14856,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -14967,7 +14967,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -15243,7 +15243,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -15288,7 +15288,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -15531,7 +15531,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -15576,7 +15576,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -16017,7 +16017,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -16293,7 +16293,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -16668,7 +16668,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -16977,7 +16977,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -16995,7 +16995,7 @@
                 },
                 "fullDescription": {
                   "text": "Reports a CSS type selector that matches an unknown HTML element.",
-                  "markdown": "Reports a CSS [type selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors) that matches an unknown HTML element."
+                  "markdown": "Reports a CSS [type selector](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Type_selectors) that matches an unknown HTML element."
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -17028,7 +17028,7 @@
                 },
                 "fullDescription": {
                   "text": "Reports an unknown CSS function or an incorrect function parameter.",
-                  "markdown": "Reports an unknown [CSS function](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) or an incorrect function parameter."
+                  "markdown": "Reports an unknown [CSS function](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Functions) or an incorrect function parameter."
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -17292,7 +17292,7 @@
                 },
                 "fullDescription": {
                   "text": "Reports an unknown CSS media feature or an incorrect media feature value.",
-                  "markdown": "Reports an unknown [CSS media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) or an incorrect media feature value."
+                  "markdown": "Reports an unknown [CSS media feature](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries) or an incorrect media feature value."
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -17457,7 +17457,7 @@
                 },
                 "fullDescription": {
                   "text": "Reports a misplaced '@import' statement. According to the specification, '@import' rules must precede all other types of rules, except '@charset' rules.",
-                  "markdown": "Reports a misplaced `@import` statement.\n\n\nAccording to the [specification](https://developer.mozilla.org/en-US/docs/Web/CSS/@import),\n`@import` rules must precede all other types of rules, except `@charset` rules."
+                  "markdown": "Reports a misplaced `@import` statement.\n\n\nAccording to the [specification](https://developer.mozilla.org/pt-BR/docs/Web/CSS/@import),\n`@import` rules must precede all other types of rules, except `@charset` rules."
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -17490,7 +17490,7 @@
                 },
                 "fullDescription": {
                   "text": "Reports an unknown CSS at-rule.",
-                  "markdown": "Reports an unknown [CSS at-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule)."
+                  "markdown": "Reports an unknown [CSS at-rule](https://developer.mozilla.org/pt-BR/docs/Web/CSS/At-rule)."
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -17523,7 +17523,7 @@
                 },
                 "fullDescription": {
                   "text": "Reports an unresolved reference to a custom property among the arguments of the 'var()' function.",
-                  "markdown": "Reports an unresolved reference to a [custom property](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) among the arguments of the `var()` function."
+                  "markdown": "Reports an unresolved reference to a [custom property](https://developer.mozilla.org/pt-BR/docs/Web/CSS/--*) among the arguments of the `var()` function."
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -17655,7 +17655,7 @@
                 },
                 "fullDescription": {
                   "text": "Verifies that the 'font-family' property contains a generic font family name as a fallback alternative. Generic font family names are: 'serif', 'sans-serif', 'cursive', 'fantasy', and 'monospace'.",
-                  "markdown": "Verifies that the [font-family](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) property contains a generic font family name as a fallback alternative.\n\n\nGeneric font family names are: `serif`, `sans-serif`, `cursive`, `fantasy`,\nand `monospace`."
+                  "markdown": "Verifies that the [font-family](https://developer.mozilla.org/pt-BR/docs/Web/CSS/font-family) property contains a generic font family name as a fallback alternative.\n\n\nGeneric font family names are: `serif`, `sans-serif`, `cursive`, `fantasy`,\nand `monospace`."
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -17820,7 +17820,7 @@
                 },
                 "fullDescription": {
                   "text": "Reports an incorrect CSS pseudo-class pseudo-element.",
-                  "markdown": "Reports an incorrect CSS [pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) [pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)."
+                  "markdown": "Reports an incorrect CSS [pseudo-class](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes) [pseudo-element](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elements)."
                 },
                 "defaultConfiguration": {
                   "enabled": false,
@@ -17880,7 +17880,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -17925,7 +17925,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -18168,7 +18168,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -18378,7 +18378,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -18555,7 +18555,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -18699,7 +18699,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -18777,7 +18777,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -18822,7 +18822,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -18933,7 +18933,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -18978,7 +18978,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19188,7 +19188,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19266,7 +19266,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19344,7 +19344,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19422,7 +19422,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19566,7 +19566,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19644,7 +19644,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19689,7 +19689,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19734,7 +19734,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19779,7 +19779,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19890,7 +19890,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19935,7 +19935,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -19980,7 +19980,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -20058,7 +20058,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -20103,7 +20103,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -20148,7 +20148,7 @@
                 ]
               }
             ],
-            "language": "en-US",
+            "language": "pt-BR",
             "contents": [
               "localizedData",
               "nonLocalizedData"
@@ -20171,7 +20171,7 @@
           "executionSuccessful": true
         }
       ],
-      "language": "en-US",
+      "language": "pt-BR",
       "versionControlProvenance": [
         {
           "repositoryUri": "https://github.com/leandrofelix-dev/portfolio.git",

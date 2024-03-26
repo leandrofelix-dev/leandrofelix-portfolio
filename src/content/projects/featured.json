@@ -1,31 +1,27 @@
 [
 	{
-		"project": "MakeOrder (under development)",
+		"project": "Bruno Soares",
 		"repo": "Private",
-		"descriptionTitle": "MakeOrder is a system",
-		"description": "for managing orders in restaurants, to streamline the company's internal processes.",
+		"descriptionTitle": "BSoares Portfolio",
+		"description": "é um portfolio web feito para o designer gráfico Bruno Soares.",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "300", "w": "700", "url": "/img/make-order.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "300", "w": "700", "url": "/img/b-soares.png" }
 
 		],
 		"stack": [
-			{ "key": "java", "name": "Java", "type": "devicon" },
-			{ "key": "spring", "name": "Spring Boot", "type": "devicon" },
 			{ "key": "nextjs", "name": "Next.js", "type": "devicon" },
-			{ "key": "electronjs", "name": "Electron.js", "type": "devicon" },
 			{ "key": "reactjs", "name": "React.js", "type": "devicon" },
-			{ "key": "postgresql", "name": "PostgreSQL", "type": "devicon" },
 			{ "key": "tailwindcss", "name": "TailwindCSS", "type": "devicon" }
 	]
 
 	},
 	{
-		"project": "Beeve (under development)",
+		"project": "Beeve - Eventos Universitários",
 		"repo": "Private",
-		"descriptionTitle": "Beeve is mobile application and API",
-		"description": "designed with the aim of facilitating and reducing bureaucracy in the registration process for academic events.",
+		"descriptionTitle": "Beeve",
+		"description": "é um ecossistema de inscrições e gerenciamento de eventos universitários, com foco em instituições de ensino superior.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
@@ -44,11 +40,11 @@
 		]
 	},
 	{
-		"project": "Alfa Comunicação",
+		"project": "Landing Page da Alfa",
 		"repo": "Public",
 		"url": "https://github.com/leandrofelix-dev/alfa-comunicacao",
-		"descriptionTitle": "Alfa Comunicação is a institutional webpage",
-		"description": "for the company Alfa Comunicação Visual, from the state of Ceará, in Brazil.",
+		"descriptionTitle": "Alfa Comunicação - Website",
+		"description": "é uma landing page criada para a empresa Alfa, do ramo de Comunicação Visual, servindo como uma vitrine para o cliente.",
 		"imageOptions": [
 		],
 		"images": [

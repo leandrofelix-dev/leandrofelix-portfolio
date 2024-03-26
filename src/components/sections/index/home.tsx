@@ -1,13 +1,9 @@
-// Core packages
 import Image from 'next/image'
 
-// Imports
 import Section from '../../structure/section'
 import Container from '../../structure/container'
 
 import SectionTitle from '../../blocks/section.title'
-
-import BadgesBlock from '../../blocks/about.badges'
 import CopyBlock from '../../blocks/about.copy'
 
 import about from '../../../styles/scss/sections/index/about.module.scss'
@@ -18,9 +14,9 @@ export default function Home() {
     <Section classProp={about.section}>
       <Container spacing={['verticalXXXLrg']}>
         <SectionTitle
-          title="About Me"
-          preTitle="Synopsis"
-          subTitle="Hello! I'm Leandro Felix, an enthusiast and full-stack web developer passionate about turning ideas into interactive and innovative solutions. With a experience in software development, I am committed to creating meaningful and efficient digital experiences. My skills span both front-end and back-end, allowing me to approach projects completely."
+          title="Sobre Mim"
+          preTitle="Resumo"
+          subTitle="Olá! Sou Leandro Félix, um desenvolvedor web full-stack apaixonado por transformar ideias em soluções digitais impactantes. Com habilidades tanto no front-end quanto no back-end, estou aqui para criar experiências digitais eficientes e significativas. Vamos juntos, desenvolver seu projeto dos sonhos? 💚"
         />
         <section className={about.content}>
           <div className={about.image}>
@@ -38,14 +34,14 @@ export default function Home() {
               containerClass={about.container}
               iconClass={about.icon}
               icon={['fas', 'user']}
-              copy="Along with my coding proficiency, I possess strong leadership, public speaking, time management, and multitasking skills that I have honed throughout my professional career. I have soft skills certification from StartSe Tech Academy and I constantly look for opportunities to expand my knowledge and stay up to date with the latest market trends."
+              copy="Além dos meus conhecimentos em programação, possuo um forte senso de liderança e desenvoltura em público, gerenciamento de tempo e de multitarefas que adquiri ao longo da minha carreira profissional. Possuo certificações em Soft Skills pela StartSe Tech Academy. Pra completar, adoro aprender coisas novas e estou por dentro das tendências e novidades na tecnologia. Sou dedicado, criativo e apaixonado pelo o que faço."
             />
             <CopyBlock
-              title="Development and Projects"
+              title="Desenvolvimento e Projetos"
               containerClass={about.container}
               iconClass={about.icon}
               icon={['fas', 'code']}
-              copy="Project development and execution are my passion. I thrive on the challenges of bringing ideas to life through coding and transforming concepts into functional, robust solutions. With meticulous planning, efficient workflows and a keen eye for detail, I ensure successful project delivery, achieving objectives and exceeding expectations."
+              copy="O desenvolvimento e execução do projeto são as minhas paixões. Adoro o desafio de dar vida às ideias por meio da codificação, transformando conceitos em soluções funcionais e robustas. Com um planejamento pensando nos mínimos detalhes, fluxos de trabalho eficientes, garanto a entrega bem sucedida do projeto, alcançando objetivos e superando expectativas."
             />
           </div>
         </section>

@@ -1,11 +1,10 @@
-'use client'
-import { SpeedInsights } from '@vercel/speed-insights/next'
 import React from 'react'
-import 'nprogress/nprogress.css'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Analytics } from '@vercel/analytics/react'
 import { domAnimation, LazyMotion } from 'framer-motion'
-import SetGridGap from '../src/components/utils/set.grid'
+import dynamic from 'next/dynamic'
 import Layout from '../src/components/layout/layout'
+import SetGridGap from '../src/components/utils/set.grid'
 import '../node_modules/the-new-css-reset/css/reset.css'
 import '@fontsource/fira-code/400.css'
 import '@fontsource/fira-code/600.css'
@@ -18,32 +17,28 @@ import '../src/styles/css/global.css'
 import '../src/styles/css/utils/splash.css'
 import '../src/styles/css/utils/chatbot.css'
 import '../src/styles/css/utils/backtotop.css'
-import dynamic from 'next/dynamic'
 import '../src/styles/css/sections/404.css'
 import '../src/styles/css/utils/anim.css'
-const DevelopmentNotice = dynamic(() => import('../src/components/dev/status'))
+
 const BackToTop = dynamic(() => import('../src/components/utils/backtotop'))
 
-interface MyAppProps {
-  Component: React.FC
+interface AppProps {
+  Component: React.ElementType
   pageProps: any
 }
 
-const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
-  return (
-    <>
-      <SpeedInsights />
-      <LazyMotion features={domAnimation}>
-        <Layout>
-          <Component {...pageProps} />
-          <DevelopmentNotice />
-          <Analytics />
-          <SetGridGap />
-        </Layout>
-        <BackToTop />
-      </LazyMotion>
-    </>
-  )
-}
+const App = ({ Component, pageProps }: AppProps) => (
+  <>
+    <SpeedInsights /> {/* Análise de desempenho do site */}
+    <LazyMotion features={domAnimation}> {/* Animação das animações dos projetos */}
+      <Layout> {/* Adiciona NavBar e Footer */}
+        <Component {...pageProps} />
+        <Analytics /> {/* Análise de tráfego do site */}
+        <SetGridGap /> {/* Adiciona grid gap para o layout */}
+      </Layout>
+      <BackToTop /> {/* Botão de voltar ao topo */}
+    </LazyMotion> 
+  </>
+)
 
-export default MyApp
+export default App

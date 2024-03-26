@@ -1,11 +1,6 @@
-// Section structure
 import Section from '../../../structure/section'
 import Container from '../../../structure/container'
-
-// Section general blocks
 import SectionTitle from '../../../blocks/section.title'
-
-// Career scss
 import career from '../../../../styles/scss/sections/index/career.module.scss'
 
 export default function Education() {
@@ -13,24 +8,21 @@ export default function Education() {
     <Section classProp={`${career.section} borderBottom`}>
       <Container spacing={['verticalXXXLrg']}>
         <SectionTitle
-          title="Education"
-          preTitle="Formal"
-          subTitle="I am currently studying information systems at the Federal Institute of Education, Science and Technology of Ceará."
+          title="Títulos Acadêmicos"
+          preTitle="Timeline acadêmica"
+          subTitle="Uma pincelada da minha carreira de aprendizado na área de tecnologia."
         />
         <section className={career.area}>
           <article className={career.company}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
                 <h3>
-                  Federal Institute of Education, Science and Technology of
-                  Ceará
+                  Bacharel em Sistemas de Informação
                 </h3>
-                <h5>Cedro, Ceará, Brazil</h5>
+                <h5>Instituto Federal de Educação, Ciência e Tecnologia do Ceará - Cedro, Ceará, Brasil</h5>
               </span>
               <p>
-                I am currently studying an 8-semester degree, in person at IFCE
-                Campus Cedro, in Information Systems, and I am currently in the
-                6th semester.
+                Graduação em andamento no curso de <b>Sistemas de Informação</b>, a nível de bacharelado, pelo IFCE Campus Cedro, com 4 anos de formação.
               </p>
             </div>
             <div className={career.companyAlt}></div>
@@ -39,13 +31,12 @@ export default function Education() {
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
                 <h3>
-                  State school of professional education Dr José Iran Costa
+                  Técnico em Informática
                 </h3>
-                <h5>Várzea Alegre, Ceará, Brazil</h5>
+                <h5>Escola Estadual de Educação Profissional Dr. José Iran Costa - Várzea Alegre, Ceará, Brazil</h5>
               </span>
               <p>
-                I have a technical degree, in the IT area, through EEEP Dr. José
-                Iran Costa, with a 3-year degree.
+                Curso de <b>Informática para desenvolvimento Web</b>, a nível técnico, pela EP Dr. Iran Costa, possuindo um total de 3 anos de formação.
               </p>
             </div>
             <div className={career.companyAlt}></div>

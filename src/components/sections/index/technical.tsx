@@ -1,18 +1,9 @@
-// Core packages
 import Image from 'next/image'
 
-// Section structure
 import Section from '../../structure/section'
 import Container from '../../structure/container'
-
-// Section general blocks
 import SectionTitle from '../../blocks/section.title'
-
-// Section specific blocks
 import BadgesBlock from '../../blocks/about.badges'
-import CopyBlock from '../../blocks/about.copy'
-
-// Section scss
 import technical from '../../../styles/scss/sections/index/about.module.scss'
 
 export default function Technical() {
@@ -20,15 +11,15 @@ export default function Technical() {
     <Section classProp={`${technical.section} borderBottom`}>
       <Container spacing={['verticalXXXLrg']}>
         <SectionTitle
-          title="Technical"
+          title="Técnico"
           preTitle="Hard Skills"
-          subTitle="See a little about my skills as a technology professional."
+          subTitle="Conheça um pouco das minhas habilidades como um profissional de tecnologia."
         />
         <section className={`${technical.content} ${technical.container}`}>
           <div className={technical.copy}>
             <BadgesBlock
-              title="Software Development"
-              copy="I have programming as a career and main focus of studies. I've been in this area since 2018 and have mastered tools like the ones listed below:"
+              title="Desenvolvimento de Software"
+              copy="Tenho seguido na carreira de programador desde 2018, com foco principal nos estudos. Nesses anos em que estive na área dominei ferramentas como essas listadas abaixo: "
               list={tech}
               block="tech"
               fullContainer="fullContainer"
@@ -39,7 +30,7 @@ export default function Technical() {
             />
             <BadgesBlock
               title="Design"
-              copy="As a passionate about design and interfaces, I have skills in several graphic creation tools, with those listed below:"
+              copy="Como um apaixonado por design e interfaces, possuo habilidades em diversas ferramentas gráficas para criação, como esses listados abaixo:"
               list={software}
               block="tech"
               fullContainer="fullContainer"
@@ -60,12 +51,8 @@ export default function Technical() {
           </div>
         </section>
       </Container>
-      {/* <SectionGridBg gridSize={4}/> */}
     </Section>
   )
-}
-{
-  /* Badge Block */
 }
 const software = [
   { key: 'photoshop', name: 'Photoshop', type: 'devicon' },
