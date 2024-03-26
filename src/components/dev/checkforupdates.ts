@@ -1,4 +1,4 @@
-import semver from 'semver'
+// import semver from 'semver'
 import settings from '../../../src/content/_settings.json'
 
 // Define the VersionDetails interface
