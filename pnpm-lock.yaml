@@ -233,8 +233,8 @@ devDependencies:
     specifier: ^3.3.3
     version: 3.3.4(webpack@5.90.3)
   tailwindcss:
-    specifier: ^3.3.6
-    version: 3.4.1(ts-node@10.9.2)
+    specifier: ^3.4.3
+    version: 3.4.3(ts-node@10.9.2)
   ts-loader:
     specifier: ^9.5.1
     version: 9.5.1(typescript@5.4.2)(webpack@5.90.3)
@@ -6419,7 +6419,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.0.8
+      minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
@@ -11807,8 +11807,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /tailwindcss@3.4.1(ts-node@10.9.2):
-    resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
+  /tailwindcss@3.4.3(ts-node@10.9.2):
+    resolution: {integrity: sha512-U7sxQk/n397Bmx4JHbJx/iSOOv5G+II3f1kpLpY2QeUv5DcPdcTsYLlusZfq1NthHS1c1cZoyFmmkex1rzke0A==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
