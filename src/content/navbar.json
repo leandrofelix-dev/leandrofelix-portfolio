@@ -6,7 +6,9 @@
 	{
 		"url": "/projects",
 		"title": "Projetos"
+	},
+	{
+		"url": "https://blog.leandrofelix.dev.br",
+		"title": "Blog"
 	}
-
-
 ]
