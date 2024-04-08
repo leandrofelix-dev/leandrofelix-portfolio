@@ -14,7 +14,7 @@ interface CopyBlockProps {
 export default function CopyBlock({
   containerClass,
   iconClass,
-  icon, // Keep it as a string if you're using a string for the icon
+  icon,
   title,
   copy,
 }: CopyBlockProps) {
