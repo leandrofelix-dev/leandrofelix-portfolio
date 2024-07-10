@@ -16,7 +16,7 @@ export default function Home() {
         <SectionTitle
           title="Sobre Mim"
           preTitle="Resumo"
-          subTitle="Olá! Sou Leandro Félix, um desenvolvedor web full-stack apaixonado por transformar ideias em soluções digitais! Com habilidades tanto de front-end quanto de back-end, estou aqui para criar experiências projetos eficientes e escaláveis. Vamos juntos, desenvolver seu projeto dos sonhos? 💚"
+          subTitle="Olá! Me chamo Leandro Félix e sou Analista de Sistemas e Programador. Desenvolvo aplicações web completas, cuidando tanto do front-end quanto do back-end. Meu foco é criar soluções digitais práticas e eficientes que atendam às necessidades dos usuários e das empresas, sempre buscando entender a real necessidade e as regras de negócio dos projetos. 💚"
         />
         <section className={about.content}>
           <div className={about.image}>
@@ -34,7 +34,7 @@ export default function Home() {
               containerClass={about.container}
               iconClass={about.icon}
               icon={['fas', 'user']}
-              copy="Além dos meus conhecimentos em programação, possuo um forte senso de liderança e desenvoltura em público, gerenciamento de tempo e de multitarefas que adquiri ao longo da minha carreira profissional. Possuo certificações em Soft Skills pela StartSe Tech Academy. Pra completar, adoro aprender coisas novas e estou por dentro das tendências e novidades na tecnologia. Sou dedicado, criativo e apaixonado pelo o que faço."
+              copy="Além dos meus conhecimentos em programação, possuo um senso de liderança, gerenciamento de tempo e de multitarefas que adquiri ao longo da minha carreira profissional. Possuo certificações em Soft Skills pela StartSe Tech Academy. Pra completar, adoro aprender coisas novas e estou por dentro das tendências e novidades na tecnologia. Sou dedicado, criativo e apaixonado pelo o que faço."
             />
             <CopyBlock
               title="Hard Skills"
