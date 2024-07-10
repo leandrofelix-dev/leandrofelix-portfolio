@@ -1,4 +1,4 @@
-import hero from '../../../styles/scss/sections/index/hero.module.scss'
+import hero from "../../../styles/scss/sections/index/hero.module.scss";
 export default function sectionBgColor() {
   return (
     <div className={`${hero.heroBackground}`}>
@@ -9,5 +9,5 @@ export default function sectionBgColor() {
         <div className={`${hero.radialGradient}`}></div>
       </div>
     </div>
-  )
+  );
 }

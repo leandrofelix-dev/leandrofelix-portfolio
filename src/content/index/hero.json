@@ -1,32 +1,32 @@
 {
-	"intro": {
-		"start": "const meuNome = (nome) =>",
-		"end": "Olá!, meu nome é",
-		"speed": 60,
-		"deletionSpeed": 80,
-		"wrapper": "h2",
-		"startDelay": 1000,
-		"deleteDelay": 3000,
-		"restartDelay": 12000
-	},
+  "intro": {
+    "start": "const meuNome = (nome) =>",
+    "end": "Olá!, meu nome é",
+    "speed": 60,
+    "deletionSpeed": 80,
+    "wrapper": "h2",
+    "startDelay": 1000,
+    "deleteDelay": 3000,
+    "restartDelay": 12000
+  },
 
-	"header": {
-		"name": "Leandro Felix 👨🏽‍💻",
-		"usp": ""
-	},
+  "header": {
+    "name": "Leandro Felix",
+    "usp": ""
+  },
 
-	"paragraph": "Sou um Analista de Sistemas e Desenvolvedor. Trabalho com desenvolvimento de aplicações web e mobile, utilizando tecnologias como React, React Native, Node.js, entre outras.",
+  "paragraph": "Sou um Analista de Sistemas e Desenvolvedor. Trabalho com desenvolvimento de aplicações web e mobile, utilizando tecnologias como React, React Native, Node.js, entre outras.",
 
-	"buttons": {
-		"primary": {
-			"title": "Entrar em contato",
-			"url": "mailto:contato@leandrofelix.dev.br",
-			"leaveSite": false
-		},
-		"secondary": {
-			"title": "LinkedIn",
-			"url": "https://www.linkedin.com/in/leandrofelix-dev/",
-			"leaveSite": "true"
-		}
-	}
+  "buttons": {
+    "primary": {
+      "title": "Ver projetos",
+      "url": "mailto:contato@leandrofelix.dev.br",
+      "leaveSite": false
+    },
+    "secondary": {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/leandrofelix-dev/",
+      "leaveSite": "true"
+    }
+  }
 }
