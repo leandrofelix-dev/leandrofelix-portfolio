@@ -27,3 +27,5 @@ module.exports = {
         additionalSitemaps: [`${siteUrl}/sitemap.xml`],
     },
 };
+
+export {};

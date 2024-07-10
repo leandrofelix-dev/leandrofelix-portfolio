@@ -110,7 +110,7 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.mdx"
-  ],
+, "babel.config.js"  ],
   "exclude": [
     "node_modules"
   ]
