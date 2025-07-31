@@ -1,7 +1,28 @@
-import Icon from '../utils/icon.tsx'
+import { 
+  FaCode, 
+  FaDatabase, 
+  FaServer, 
+  FaMobile, 
+  FaTools, 
+  FaGraduationCap,
+  FaUser,
+  FaHeart
+} from 'react-icons/fa'
 import Badges from '../utils/badge.list'
 
 import badges from '../../styles/scss/blocks/badges.module.scss'
+
+// Mapeamento de ícones
+const iconMap = {
+  'code': <FaCode />,
+  'database': <FaDatabase />,
+  'server': <FaServer />,
+  'mobile': <FaMobile />,
+  'tools': <FaTools />,
+  'graduation-cap': <FaGraduationCap />,
+  'user': <FaUser />,
+  'heart': <FaHeart />
+}
 
 export default function BadgesBlock({
   title,
@@ -17,7 +38,7 @@ export default function BadgesBlock({
   return (
     <div className={`${badges.badgeBlockContainer} ${containerClass}`}>
       <span className={headerIcon}>
-        <Icon icon={['fat', icon]} />
+        {iconMap[icon] || <FaCode />}
       </span>
       <h3>{title}</h3>
       <Copy copy={copy} />

@@ -167,3 +167,61 @@ a svg {
   background-clip: text;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
 }
+
+/* Custom Tailwind utilities for legacy CSS variables */
+@layer utilities {
+  .bg-background-dim {
+    background-color: var(--background-dim);
+  }
+  .bg-background-dim2 {
+    background-color: var(--background-dim2);
+  }
+  .border-primary-dark {
+    border-color: var(--primary-dark);
+  }
+  .gap-2- {
+    gap: var(--size-2-);
+  }
+  .px-3- {
+    padding-left: var(--size-3-);
+    padding-right: var(--size-3-);
+  }
+  .py-3- {
+    padding-top: var(--size-3-);
+    padding-bottom: var(--size-3-);
+  }
+  .mr-3 {
+    margin-right: 0.7rem;
+  }
+  .mb-2- {
+    margin-bottom: var(--size-2-);
+  }
+  
+  /* Spacing utilities using CSS variables */
+  .my-1x { margin-top: var(--size-1x); margin-bottom: var(--size-1x); }
+  .my-2x { margin-top: var(--size-2x); margin-bottom: var(--size-2x); }
+  .my-3x { margin-top: var(--size-3x); margin-bottom: var(--size-3x); }
+  .my-4x { margin-top: var(--size-4x); margin-bottom: var(--size-4x); }
+  .my-5x { margin-top: var(--size-5x); margin-bottom: var(--size-5x); }
+  .my-6x { margin-top: var(--size-6x); margin-bottom: var(--size-6x); }
+  .my-7x { margin-top: var(--size-7x); margin-bottom: var(--size-7x); }
+  
+  .mb-1x { margin-bottom: var(--size-1x); }
+  .mb-2x { margin-bottom: var(--size-2x); }
+  .mb-3x { margin-bottom: var(--size-3x); }
+  .mb-4x { margin-bottom: var(--size-4x); }
+  .mb-5x { margin-bottom: var(--size-5x); }
+  .mb-6x { margin-bottom: var(--size-6x); }
+  
+  .gap-1x { gap: var(--size-1x); }
+  .gap-2x { gap: var(--size-2x); }
+  .gap-3x { gap: var(--size-3x); }
+  .gap-4x { gap: var(--size-4x); }
+  .gap-5x { gap: var(--size-5x); }
+  .gap-6x { gap: var(--size-6x); }
+  .gap-7x { gap: var(--size-7x); }
+  
+  .text-primary-bright {
+    color: var(--primary-bright);
+  }
+}

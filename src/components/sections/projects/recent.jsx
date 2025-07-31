@@ -2,7 +2,7 @@ import React from 'react'
 import Section from '../../structure/section'
 import Container from '../../structure/container'
 import Image from 'next/image'
-import Icon from '../../utils/icon'
+import { FaExternalLinkAlt, FaStar, FaCodeBranch } from 'react-icons/fa'
 import css from '../../../styles/scss/sections/projects/recent.module.scss'
 
 export default function GitProjects({ repos, user }) {
@@ -23,7 +23,7 @@ export default function GitProjects({ repos, user }) {
             <p>{user[0]?.name}</p>
             <a href={user[0]?.html_url} rel="noreferrer" target="_blank">
               {user[0]?.html_url}{' '}
-              <Icon icon={['far', 'arrow-up-right-from-square']} />
+              <FaExternalLinkAlt className="inline h-3 ml-1" />
             </a>
           </span>
         </section>
@@ -49,7 +49,7 @@ export default function GitProjects({ repos, user }) {
                   <span className={css.header}>
                     <a href={html_url} rel="noreferrer" target="_blank">
                       {name}{' '}
-                      <Icon icon={['fad', 'arrow-up-right-from-square']} />
+                      <FaExternalLinkAlt className="inline h-3 ml-1" />
                     </a>
                     <p className={css.homepage}>{homepage}</p>
                   </span>
@@ -66,10 +66,10 @@ export default function GitProjects({ repos, user }) {
                       </p>
                     )}
                     <p>
-                      <Icon icon={['fad', 'star']} /> {watchers}
+                      <FaStar className="inline h-3 mr-1" /> {watchers}
                     </p>
                     <p>
-                      <Icon icon={['fad', 'code-branch']} /> {forks_count}
+                      <FaCodeBranch className="inline h-3 mr-1" /> {forks_count}
                     </p>
                     <p className={css.pushedAt}>{date}</p>
                   </span>

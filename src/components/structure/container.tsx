@@ -1,6 +1,5 @@
 import React, { ReactNode } from "react";
 import Spacing from "../utils/spacing";
-import styles from "../../styles/scss/structure/container.module.scss";
 
 interface ContainerProps {
   classProp?: string;
@@ -16,7 +15,7 @@ const Container: React.FC<ContainerProps> = ({
   const _class = classProp || "";
 
   return (
-    <div className={`${styles.readingWidth} ${_class} ${Spacing(spacing)}`}>
+    <div className={`w-full max-w-reading mx-auto flex flex-col mobile:w-[calc(100%-2rem)] mobile:mx-4 ${_class} ${Spacing(spacing)}`}>
       {children}
     </div>
   );

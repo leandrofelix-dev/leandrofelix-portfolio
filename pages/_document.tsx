@@ -9,7 +9,6 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <title>Leandro Felix | Portfólio</title>
         <meta
           name="description"
           content="Leandro Felix - Analista de Sistemas e Desenvolvedor Fullstack Web"

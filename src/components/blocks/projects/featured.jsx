@@ -5,7 +5,7 @@ import { m, useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 
 import Badges from '../../utils/badge.list'
-import Icon from '../../utils/icon'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 import css from '../../../styles/scss/sections/projects/featured.module.scss'
 
@@ -70,7 +70,7 @@ export default function FeaturedProject({ content }, index) {
             />
           </div>
           <m.div variants={''} className={css.viewProject}>
-            <Icon icon={['fad', 'arrow-right-to-bracket']} />
+            <FaExternalLinkAlt className="inline h-4" />
           </m.div>
         </div>
       </div>

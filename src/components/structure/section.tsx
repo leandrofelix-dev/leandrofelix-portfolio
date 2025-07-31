@@ -1,5 +1,3 @@
-// Section structure scss
-import sections from '../../styles/scss/structure/section.module.scss'
 import React from 'react'
 
 interface SectionProps {
@@ -10,7 +8,7 @@ interface SectionProps {
 const Section: React.FC<SectionProps> = ({ classProp, children }) => {
   const _class = classProp || ''
 
-  return <div className={`${sections.default} ${_class}`}>{children}</div>
+  return <div className={`relative flex flex-col w-full overflow-y-clip overflow-x-hidden ${_class}`}>{children}</div>
 }
 
 export default Section

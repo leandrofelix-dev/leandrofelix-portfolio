@@ -38,7 +38,7 @@ export default function Hero() {
               width={500}
               height={800}
               alt="Leandro Felix"
-              loading=" "
+              loading="lazy"
               style={{
                 filter: "grayscale(100%)",
               }}
