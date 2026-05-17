@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Leandro Felix - Analista de Sistemas e Desenvolvedor Fullstack Web"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta name="author" content="Leandro Felix" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="/favicon/favicon-org.ico" type="image/x-icon" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/img/picture.jpeg" />
+    <title>Leandro Felix - Portfolio</title>
+    <script>
+      let themeLocalStorage = localStorage.getItem('theme')
+      let themeSystem = window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : 'light'
+      document.documentElement.dataset.theme = themeLocalStorage ?? themeSystem
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,4 +1,7 @@
 # checkout more information at https://github.com/leandrofelix-dev/portfolio
+.DS_Store
+**/.DS_Store
+
 # Logs
 logs
 *.log

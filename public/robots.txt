@@ -5,7 +5,3 @@ Allow: *
 # Host
 Host: https://leandrofelix.dev.br
 Host: https://www.leandrofelix.dev.br
-
-# Sitemaps
-Sitemap: https://leandrofelix.dev.br/sitemap.xml
-Sitemap: https://leandrofelix.dev.br/sitemap-0.xml
