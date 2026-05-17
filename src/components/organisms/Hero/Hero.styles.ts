@@ -85,8 +85,21 @@ export const Emoji = styled.span`
 export const PreHeader = styled.div`
   color: var(--secondary);
   font-family: var(--font-accent);
-  font-size: 1.2rem;
   font-weight: 400;
+
+  h2 {
+    margin: 0;
+    color: var(--secondary);
+    font-family: var(--font-accent);
+    font-size: var(--font-r-s);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.4;
+  }
+
+  ${media.mobile} h2 {
+    font-size: var(--font-s);
+  }
 `
 
 export const HeroHeader = styled.h1`
